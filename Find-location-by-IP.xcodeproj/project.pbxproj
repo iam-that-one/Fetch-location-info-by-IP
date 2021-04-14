@@ -11,6 +11,7 @@
 		B86F36BD2626355A005E26C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F36BC2626355A005E26C3 /* ContentView.swift */; };
 		B86F36BF2626355F005E26C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86F36BE2626355F005E26C3 /* Assets.xcassets */; };
 		B86F36C22626355F005E26C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86F36C12626355F005E26C3 /* Preview Assets.xcassets */; };
+		B86F36CB26263583005E26C3 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F36CA26263583005E26C3 /* LocationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B86F36BE2626355F005E26C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B86F36C12626355F005E26C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B86F36C32626355F005E26C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86F36CA26263583005E26C3 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B86F36BE2626355F005E26C3 /* Assets.xcassets */,
 				B86F36C32626355F005E26C3 /* Info.plist */,
 				B86F36C02626355F005E26C3 /* Preview Content */,
+				B86F36CA26263583005E26C3 /* LocationViewModel.swift */,
 			);
 			path = "Find-location-by-IP";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86F36BD2626355A005E26C3 /* ContentView.swift in Sources */,
+				B86F36CB26263583005E26C3 /* LocationViewModel.swift in Sources */,
 				B86F36BB2626355A005E26C3 /* Find_location_by_IPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
